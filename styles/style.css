@@ -1,0 +1,107 @@
+/* header styles */
+.header {
+  background: linear-gradient(90deg, purple, pink);
+  padding: 10px;
+}
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgb(134, 139, 32);
+  text-decoration: none;
+}
+.list {
+  display: inline-block;
+  list-style: none;
+}
+.list_item {
+  display: inline-block;
+  margin-left: 10px;
+  transition: all 0.4s linear;
+}
+
+.list_item_link {
+  text-decoration: none;
+  color: rgb(32, 80, 152);
+}
+
+.list_item_link:hover {
+  color: orange;
+}
+
+.list_item:hover {
+  transform: scale(1.2);
+}
+/* main styles */
+
+.conteiner {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-style: italic;
+}
+
+.image-conteiner{
+    display: block;
+    margin: 0 auto;
+    width: 400%;
+    height: auto;
+}
+
+.work{
+  margin-left: 5%;
+  margin-top: 2%;
+  display: flow-root;
+  text-decoration: wavy;
+  width: 500px;
+  padding: 0 auto;
+  background-color: rgb(172, 174, 211);
+}
+
+.image {
+  margin-left: 37px;
+  margin-top: 0%;
+  width: 400px;
+  height: auto;
+
+}
+.interess{
+    display: block;
+    background-color: rgb(133, 163, 136);
+    text-decoration: dashed;
+}
+.hobby{
+    display:flex;
+    background-color: rgb(203, 185, 155);
+    text-decoration:double;
+}
+
+.contacts{
+    display:block;
+    text-align:left;
+    background-color: rgb(133, 133, 162);
+    text-decoration:dotted;
+}
+
+.live{
+  display: block;
+  text-decoration: dashed;
+  background-color:rgb(172, 178, 146);
+}
+.about_me{
+  display:block;
+  background-color:pink;
+  text-transform:capitalize;
+  color: black;
+}
+
+.footer{
+  display: block; 
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px 30px 20px 15px;
+  background-color: rgb(147, 176, 147);
+  color: rgb(23, 23, 20);
+}
+
